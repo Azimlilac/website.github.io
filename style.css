@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  min-height: 100vh; /* Ensures body takes up at least the full viewport height */
+  background-image: url('face.jpg');
+  background-size: cover;
+}
+
+header {
+  background-color: #FA8072;
+  color: #fff;
+  padding:0;
+  margin: 0;
+ 
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Enables flexbox layout */
+  justify-content: center; /* Horizontally centers the navigation items */
+  align-items: center; /* Vertically centers the navigation items */
+}
+
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* Add the following CSS to remove the margin-right on the last navigation item */
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+  margin-bottom: 60px; /* Adds a bottom margin to make space for the footer */
+}
+
+
+footer {
+  background-color: #FA8072;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  position: fixed; /* Fixes the footer to the bottom of the viewport */
+  left: 0;
+  bottom: 0;
+  width: 100%; /* Ensures the footer spans the full width */
+}
